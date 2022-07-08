@@ -327,6 +327,7 @@ section{
     background: var(--text-color);
 }
 
+/* large screen size : from 1140px to 1560px */
 @media (max-width:1560px){
     header{
         padding: 15px 40px;
@@ -337,7 +338,7 @@ section{
         --h2-font:2rem;    
     }
 }
-
+/* small tablet to desktop screen : from 720px to 1140px */
 @media (max-width: 1140px) {
     section{
         padding: 50px 8%;
@@ -373,7 +374,7 @@ section{
     }
 
 }
-
+/* small phone screen to small tablet : from 575px to 720 */
 @media (max-width:720px) {
     header{
         padding: 10px 16px;
@@ -394,7 +395,7 @@ section{
     }
 
 }
-
+/* small phone screen : from 0 to 575px */
 @media (max-width: 575px) {
     .col{
         width: 100%;
